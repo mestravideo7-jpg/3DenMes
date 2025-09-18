@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your AI Website</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; line-height: 1.6; }
+    header { background: #1a1a1a; color: #fff; padding: 20px; text-align: center; }
+    nav a { color: #fff; margin: 0 10px; text-decoration: none; }
+    nav a:hover { text-decoration: underline; }
+    .hero { background: #4cafef; color: #fff; padding: 80px 20px; text-align: center; }
+    .hero h1 { font-size: 2.5em; margin-bottom: 10px; }
+    .hero p { font-size: 1.2em; margin-bottom: 20px; }
+    .btn { background: #fff; color: #333; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-weight: bold; }
+    .btn:hover { background: #eee; }
+    section { padding: 60px 20px; max-width: 900px; margin: auto; }
+    section h2 { text-align: center; margin-bottom: 20px; }
+    .services { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+    .card { background: #f5f5f5; padding: 20px; border-radius: 10px; text-align: center; }
+    form { display: flex; flex-direction: column; gap: 10px; max-width: 400px; margin: auto; }
+    input, textarea { padding: 10px; border: 1px solid #ccc; border-radius: 5px; }
+    button { padding: 10px; border: none; background: #4cafef; color: #fff; border-radius: 5px; cursor: pointer; }
+    button:hover { background: #3498db; }
+    footer { background: #1a1a1a; color: #fff; text-align: center; padding: 20px; margin-top: 40px; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>My AI Website</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Welcome to My AI-Powered Site</h1>
+    <p>This website was built 100% free with AI 🚀</p>
+    <a href="#services" class="btn">Explore Services</a>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>We use artificial intelligence to create amazing solutions for the web. This site is a simple demo built entirely with AI tools.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="card">
+        <h3>Web Design</h3>
+        <p>Modern and responsive layouts powered by AI.</p>
+      </div>
+      <div class="card">
+        <h3>Content Creation</h3>
+        <p>AI-generated blogs, product descriptions, and more.</p>
+      </div>
+      <div class="card">
+        <h3>Automation</h3>
+        <p>Save time with AI workflows and chatbots.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Your Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 My AI Website | Built Free with AI</p>
+  </footer>
+
+</body>
+</html>
